@@ -250,19 +250,16 @@ class GatewayPayPalExpress extends PaymentGateway
 
         foreach ($order->items as $shopItem) {
 
-            if ($shopItem->price > 0) {
+            $item = new Item();
 
-                $item = new Item();
+            $item->setName(substr($shopItem->displayName, 0, 127))
+                ->setDescription($shopItem->sku)
+                ->setCurrency($shopItem->currency)
+                ->setQuantity($shopItem->quantity)
+                ->setTax($shopItem->tax)
+                ->setPrice($shopItem->price);
 
-                $item->setName(substr($shopItem->displayName, 0, 127))
-                    ->setDescription($shopItem->sku)
-                    ->setCurrency($shopItem->currency)
-                    ->setQuantity($shopItem->quantity)
-                    ->setTax($shopItem->tax)
-                    ->setPrice($shopItem->price);
-
-                $items[] = $item;
-            }
+            $items[] = $item;
         }
 
         return $items;
