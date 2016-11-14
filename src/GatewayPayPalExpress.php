@@ -91,7 +91,7 @@ class GatewayPayPalExpress extends PaymentGateway
             
             $details->setShipping($order->totalShipping)
                 ->setTax($order->totalTax)
-                ->setSubtotal($order->totalPrice);
+                ->setSubtotal($order->totalPrice + $order->totalDiscount);
 
             $amount = new Amount();
 
