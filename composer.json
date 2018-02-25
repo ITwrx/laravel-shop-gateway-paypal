@@ -1,5 +1,5 @@
 {
-    "name": "amsgames/laravel-shop-gateway-paypal",
+    "name": "ITwrx/laravel-shop-gateway-paypal",
     "description": "PayPal gateway for Laravel Shop package.",
     "license": "MIT",
     "keywords": ["laravel shop","gateway","laravel-shop","paypal"],
