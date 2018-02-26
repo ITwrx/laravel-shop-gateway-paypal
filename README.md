@@ -1,11 +1,8 @@
-PAYPAL GATEWAY (for Laravel Shop Package)
+PAYPAL GATEWAY (for ITwrx/laravel-shop)
 --------------------------------
 
-[![Latest Stable Version](https://poser.pugx.org/amsgames/laravel-shop-gateway-paypal/v/stable)](https://packagist.org/packages/amsgames/laravel-shop-gateway-paypal)
-[![Total Downloads](https://poser.pugx.org/amsgames/laravel-shop-gateway-paypal/downloads)](https://packagist.org/packages/amsgames/laravel-shop-gateway-paypal)
-[![License](https://poser.pugx.org/amsgames/laravel-shop-gateway-paypal/license)](https://packagist.org/packages/amsgames/laravel-shop-gateway-paypal)
 
-PayPal Gateway solution for [Laravel Shop](https://github.com/amsgames/laravel-shop).
+PayPal Gateway solution for [ITwrx/laravel-shop](https://github.com/ITwrx/laravel-shop).
 
 ## Gateways
 
@@ -33,10 +30,10 @@ This package comes with:
 In order to install Laravel Shop, you can run
 
 ```json
-"amsgames/laravel-shop-gateway-paypal": "v1.0.0"
+"ITwrx/laravel-shop-gateway-paypal": "v1.0.3"
 ```
 
-to your composer.json. Then run `composer install` or `composer update`.
+to your composer.json. Then run `composer update`.
 
 Then in your `config/shop.php` add 
 
