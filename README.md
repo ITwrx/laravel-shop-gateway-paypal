@@ -165,7 +165,7 @@ if ($order->isPending) {
 
 ## License
 
-This package is free software distributed under the terms of the MIT license.
+Amsgames\laravel-shop-gateway-paypal is free software distributed under the terms of the MIT license. Any changes in this fork (ITwrx\laravel-shop-gateway-paypal) are Free Software released under the AGPL.
 
 ## Additional Information
 
