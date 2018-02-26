@@ -27,13 +27,24 @@ This package comes with:
 
 ## Installation
 
-In order to install Laravel Shop, you can run
+To install, add
 
 ```json
 "ITwrx/laravel-shop-gateway-paypal": "v1.0.3"
 ```
 
-to your composer.json. Then run `composer update`.
+to the require block of your composer.json as well as adding 
+```json
+"repositories": [        
+        {
+            "type": "vcs",
+            "url": "https://github.com/ITwrx/laravel-shop-gateway-paypal.git"
+        }
+    ]
+```
+to the bottom of composer.json. Or, if you already have the repositories block, just add the part in curly braces that represents this package's repo. 
+
+Then run `composer update`.
 
 Then in your `config/shop.php` add 
 
